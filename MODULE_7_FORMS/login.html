@@ -1,0 +1,25 @@
+<html>
+    <head>
+        <title>LOGIN</title>
+        
+    </head>
+    <body background="images/AAAA.jpg">
+            
+                <form action="https://www.google.com/" >
+            <center>
+                    <fieldset style="width:270px" align ="middle" >
+                            <legend  align="middle">LOGIN</legend>
+                     <label for="username">Username :</label>
+                        <input type="email" name="username" required="required" placeholder="Username"/><br/><br/>
+                    <label for="password">Password  : </label>
+                        <input type="password" name="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" minlength="8" maxlength="12" required="required" placeholder="Password"/>
+                        <br/>
+                        <input type="checkbox" name="service" value="Keepmeloggedin"  align ="middle"/>Keep me logged in
+                       <br/> <input type="submit" value="Login" align ="middle"/>
+                 </fieldset>    
+                </center>
+        
+           
+        </form>
+    </body>
+</html>

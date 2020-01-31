@@ -1,0 +1,94 @@
+<html>
+    <head>
+        <title>REGISTRATION</title>
+        <style> 
+        <center>
+                form{ 
+                width: 50%; 
+                } 
+                legend {  
+                    display: block; 
+                    padding-left: 10px; 
+                    padding-right: 10px; 
+                    border: 3px solid green; 
+                    background-color :deeppink; 
+                    color:rgb(7, 59, 16);; 
+                } 
+                label { 
+                    display: inline-block; 
+                    float: left; 
+                    clear: left; 
+                    width: 90px; 
+                    margin:5px; 
+                    color:aqua;
+                    text-align: left; 
+                } 
+                input[type="text"] { 
+                    display: inline-block;
+                    width:250px; 
+                    color:rgb(209, 0, 122);
+                    margin:5px 0px; 
+                } 
+                </center>
+            </style>
+    </head>
+    <body background="images/ABC.jpg">
+            
+                <form action="casestudylogin.html" >
+            <center>
+                    <fieldset style="width:500px" align ="middle" >
+                            <legend style = "color :aqua(55, 20, 255)"; align: "middle">REGISTRATION</legend>
+                                <p>
+                              <label for="Firstname" >First Name </label><br/>
+                            <input type="text" name="Firstname"  required="required" placeholder="First name"/>
+                                </p>
+                                <p>
+                            <label for="Lastname">Last Name </label><br/>
+                           <input type="text" name="Lastname" required="required" placeholder="Last name"/>
+                                </p>
+                            <p>
+                        <label for="Date of Birth">Date of Birth </label><br/>
+                       <input type="date" name="date" required="required" placeholder="Date of Birth">
+                        </p>
+                        <p>
+                            <label for="Gender">Gender </label><br/>
+                                 <input type="text" name="Gender" required="required" placeholder="Gender"/>
+                            </p>
+                <p>
+                    <label for="Place">Place </label><br/>
+                    <input type="text" name="Place" required="required" placeholder="Place"/>
+                </p>
+                    <p>
+                        <label for="College">College </label><br/>
+                        <input type="text" name="College" required="required" placeholder="College"/>
+                    </p>
+                    <p>
+                       <label for="Father's name">Father's name </label><br/> 
+                        <input type="text" name="Father's name" required="required" placeholder="Father's name"/>
+                    </p>
+                    <p>
+                        <label for="Mother's name">Mother's Name :</label><br/>
+                       <input type="text" name="Mother's name" required="required" placeholder="Mother's name"/>
+                       </p>
+                   
+                    <p>
+                     <label for="username">New Username </label><br/>
+                        
+                    <input type="email" name="username" required="required" placeholder="Username"/>
+                </p>
+                    <p> 
+                        <label for="password">New Password   </label><br/>
+                            <input type="password" name="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" minlength="8" title="Must contain at least 
+                        one number and one uppercase and lowercase letter, and at least 8 or more 
+                        characters"  maxlength="12" required="required" placeholder="Password"/>
+                    </p>
+                    <br/>
+                    <p><input type="submit" value="Submit and Signin" align ="middle" /></p>
+                   
+                     </fieldset>    
+                </center>
+        
+           
+        </form>
+    </body>
+</html>
